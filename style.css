@@ -1,0 +1,73 @@
+body {
+  background: #0d0d0d;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #1a1a1a;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 20px orange;
+}
+h1 {
+  color: orange;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px;
+}
+input[type="file"] {
+  margin: 20px 0;
+}
+.player {
+  margin-top: 20px;
+}
+.controls button {
+  margin: 10px;
+  padding: 10px 15px;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#seek-bar, #volume {
+  width: 100%;
+  margin: 10px 0;
+}
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+#playlist li {
+  background: #333;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#playlist li:hover {
+  background: blue;
+  color: white;
+}
+.time-info {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#file-input{
+	outline:none;
+	
+}
+.devpixel-footer{
+  margin-top:30px;
+  font-size:14px;
+  color:orange;
+  border-top: 1px solid blue;
+  padding-top:15px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
