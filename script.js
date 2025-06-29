@@ -23,7 +23,12 @@ fileInput.addEventListener('change', () => {
 
   loadSong(0);
 });
-
+function displaySongInPlaylist(songName) {
+  const li = document.createElement('div');
+  li.className = 'list-group-item bg-dark text-white border-secondary';
+  li.textContent = songName;
+  document.getElementById('playlist').appendChild(li);
+}
 function loadSong(index) {
   currentIndex = index;
   const song = songs[index];
